@@ -1,0 +1,9 @@
+{
+  "name": "jsdom-scalajs",
+  "version": "0.3.1",
+  "private": true,
+  "dependencies": {
+    "htmlparser2": "^3.9.2",
+    "source-map": "^0.5.6"
+  }
+}

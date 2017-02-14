@@ -1,21 +1,23 @@
-Htmlparser2 API for Scala.js
+HtmlParser2 API for Scala.js
 =======================
-This is a Scala.js type-safe binding for [htmlparser2](https://www.npmjs.com/package/htmlparser2) 
+[htmlparser2](https://www.npmjs.com/package/htmlparser2) - Fast & forgiving HTML/XML/RSS parser.
 
-A Fast & forgiving HTML/XML/RSS parser.
+### Description
 
-#### Build Dependencies
+A forgiving HTML/XML/RSS parser. The parser can handle streams and provides a callback interface.
 
-* [ScalaJs.io v0.3.x](https://github.com/ldaniels528/scalajs.io)
+### Build Dependencies
+
+* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
-#### Build/publish the SDK locally
+### Build/publish the SDK locally
 
 ```bash
 $ sbt clean publish-local
 ```
 
-#### Running the tests
+### Running the tests
 
 Before running the tests the first time, you must ensure the npm packages are installed:
 
@@ -29,9 +31,13 @@ Then you can run the tests:
 $ sbt test
 ```
 
-#### Examples
+### Examples
 
 ```scala
+  import io.scalajs.nodejs.console
+  import io.scalajs.npm.htmlparser2._
+  import scala.scalajs.js
+  
   val parser = new Parser(
     new ParserHandler {
 
@@ -55,12 +61,12 @@ $ sbt test
   parser.end()
 ```
 
-#### Artifacts and Resolvers
+### Artifacts and Resolvers
 
-To add the `htmlparser2` binding to your project, add the following to your build.sbt:  
+To add the `HtmlParser2` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "htmlparser2" % "0.3.0.3"
+libraryDependencies += "io.scalajs.npm" %%% "htmlparser2" % "3.9.2"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:

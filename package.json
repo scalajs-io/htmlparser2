@@ -1,6 +1,6 @@
 {
-  "name": "htmlparser2-scalajs",
-  "version": "0.3.1",
+  "name": "htmlparser2-sjs",
+  "version": "3.9.2",
   "private": true,
   "dependencies": {
     "htmlparser2": "^3.9.2",

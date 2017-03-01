@@ -8,7 +8,6 @@ A forgiving HTML/XML/RSS parser. The parser can handle streams and provides a ca
 
 ### Build Dependencies
 
-* [ScalaJs.io v0.3.x](https://github.com/scalajs-io/scalajs.io)
 * [SBT v0.13.13](http://www.scala-sbt.org/download.html)
 
 ### Build/publish the SDK locally
@@ -66,7 +65,7 @@ $ sbt test
 To add the `HtmlParser2` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "htmlparser2" % "3.9.2"
+libraryDependencies += "io.scalajs.npm" %%% "htmlparser2" % "3.9.2-2"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:

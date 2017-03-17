@@ -5,8 +5,8 @@ import sbt._
 
 import scala.language.postfixOps
 
-val apiVersion = "3.9.2-2"
-val scalaJsIOVersion = "0.3.0.6"
+val apiVersion = "3.9.2-3"
+val scalaJsIOVersion = "0.3.0.7"
 val scalaJsVersion = "2.12.1"
 
 homepage := Some(url("https://github.com/scalajs.io/htmlparser2"))

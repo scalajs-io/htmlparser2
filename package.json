@@ -1,6 +1,6 @@
 {
   "name": "htmlparser2-sjs",
-  "version": "0.4.0-pre2",
+  "version": "0.4.0-pre3",
   "private": true,
   "dependencies": {
     "htmlparser2": "^3.9.2",

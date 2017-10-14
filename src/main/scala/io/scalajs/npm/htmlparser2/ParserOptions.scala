@@ -1,7 +1,7 @@
 package io.scalajs.npm.htmlparser2
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 
 /**
   * Parser Options
@@ -20,7 +20,7 @@ import scala.scalajs.js.annotation.ScalaJSDefined
   *                                tags will be text only.
   * @author lawrence.daniels@gmail.com
   */
-@ScalaJSDefined
+
 class ParserOptions(var decodeEntities: js.UndefOr[Boolean] = js.undefined,
                     var lowerCaseTags: js.UndefOr[Boolean] = js.undefined,
                     var lowerCaseAttributeNames: js.UndefOr[Boolean] = js.undefined,

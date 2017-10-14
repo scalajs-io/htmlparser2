@@ -3,13 +3,13 @@ package io.scalajs.npm.htmlparser2
 import io.scalajs.nodejs.Error
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 
 /**
   * Parser Handler
   * @author lawrence.daniels@gmail.com
   */
-@ScalaJSDefined
+
 abstract class ParserHandler extends js.Object {
 
   /**
